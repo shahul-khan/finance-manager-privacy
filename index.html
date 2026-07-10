@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Privacy Policy | Finance Manager</title>
+
+    <meta
+        name="description"
+        content="Privacy Policy for the Finance Manager personal finance application."
+    >
+
+    <style>
+        :root {
+            color-scheme: light dark;
+            --background: #f5f5f7;
+            --card: #ffffff;
+            --text: #1d1d1f;
+            --secondary: #5f6368;
+            --accent: #f28c28;
+            --border: #e5e5e7;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #0d0d0f;
+                --card: #1a1a1d;
+                --text: #f5f5f7;
+                --secondary: #b6b6ba;
+                --border: #303034;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 24px;
+            background: var(--background);
+            color: var(--text);
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+            line-height: 1.65;
+        }
+
+        main {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 42px 28px;
+            margin-bottom: 24px;
+            border-radius: 24px;
+            background: linear-gradient(
+                135deg,
+                rgba(242, 140, 40, 0.18),
+                rgba(242, 140, 40, 0.04)
+            );
+            border: 1px solid var(--border);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: clamp(2rem, 5vw, 3.4rem);
+            line-height: 1.1;
+        }
+
+        header p {
+            margin: 6px 0;
+            color: var(--secondary);
+        }
+
+        section {
+            margin-bottom: 18px;
+            padding: 28px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background: var(--card);
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 1.35rem;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent);
+        }
+
+        .notice {
+            padding: 16px 18px;
+            border-left: 4px solid var(--accent);
+            border-radius: 10px;
+            background: rgba(242, 140, 40, 0.09);
+        }
+
+        footer {
+            padding: 20px 8px 40px;
+            text-align: center;
+            color: var(--secondary);
+            font-size: 0.92rem;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+
+    <header>
+        <h1>Privacy Policy</h1>
+        <p><strong>Finance Manager</strong></p>
+        <p>Effective date: 10 July 2026</p>
+    </header>
+
+    <section>
+        <h2>1. Introduction</h2>
+
+        <p>
+            Finance Manager is a personal finance management application
+            designed to help users record and manage their income, expenses,
+            bills, budgets, debts, savings, recurring items, calendar entries,
+            and receipt information.
+        </p>
+
+        <p>
+            This Privacy Policy explains what information the application
+            processes, why it is processed, how it is protected, and what
+            choices users have regarding their information.
+        </p>
+    </section>
+
+    <section>
+        <h2>2. Information We Process</h2>
+
+        <p>
+            Depending on the features used, Finance Manager may process:
+        </p>
+
+        <ul>
+            <li>Email address used to create and authenticate an account.</li>
+            <li>Income, expense, bill, budget, savings, and debt records.</li>
+            <li>Friend due and family-sharing information entered by the user.</li>
+            <li>Merchant names, transaction dates, amounts, currencies, categories, payment methods, notes, and tax values.</li>
+            <li>Bill or receipt images voluntarily captured or selected by the user.</li>
+            <li>Receipt information extracted using optical character recognition.</li>
+            <li>App preferences such as default currency, app-lock status, and auto-lock timeout.</li>
+            <li>Cloud-sync state and technical information necessary to operate the application.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. How Information Is Used</h2>
+
+        <p>User information is used to provide app functionality, including:</p>
+
+        <ul>
+            <li>Creating and authenticating the user's account.</li>
+            <li>Saving and synchronizing personal finance records.</li>
+            <li>Calculating dashboards, reports, budgets, bills, debts, and savings.</li>
+            <li>Extracting receipt details from images selected by the user.</li>
+            <li>Displaying receipt images and associated transaction details.</li>
+            <li>Protecting the app with Face ID, Touch ID, or device authentication.</li>
+            <li>Maintaining app reliability, security, and user preferences.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Account and User Data Isolation</h2>
+
+        <p>
+            The user's email address is used for authentication.
+            Personal finance data is associated with the user's Firebase
+            Authentication user identifier.
+        </p>
+
+        <p>
+            User-specific cloud data is stored under an account-specific path
+            and is intended to be accessible only to that authenticated user.
+        </p>
+
+        <div class="notice">
+            Finance Manager does not send a user's income, expenses, bills,
+            or other finance records to the user's email inbox.
+        </div>
+    </section>
+
+    <section>
+        <h2>5. Local Device Storage</h2>
+
+        <p>
+            Finance Manager uses Apple storage technologies, including
+            SwiftData, to store finance records and related information locally
+            on the user's device.
+        </p>
+
+        <p>
+            Temporary files may also be stored locally, including downloaded
+            receipt images, OCR images, generated reports, and cache files.
+            These temporary files may be removed using the Clear Cache feature.
+        </p>
+    </section>
+
+    <section>
+        <h2>6. Firebase Services</h2>
+
+        <p>Finance Manager uses Firebase services provided by Google:</p>
+
+        <ul>
+            <li>
+                <strong>Firebase Authentication</strong> for account sign-in
+                and authentication.
+            </li>
+
+            <li>
+                <strong>Cloud Firestore</strong> for saving and synchronizing
+                user finance records and settings.
+            </li>
+
+            <li>
+                <strong>Firebase Storage</strong> for storing receipt or bill
+                images uploaded by the user.
+            </li>
+        </ul>
+
+        <p>
+            Cloud records and stored files are organized using the
+            authenticated user's account identifier.
+        </p>
+    </section>
+
+    <section>
+        <h2>7. Receipt Scanning and OCR</h2>
+
+        <p>
+            When a user captures or selects a receipt image, Finance Manager
+            may analyze the image to identify information such as:
+        </p>
+
+        <ul>
+            <li>Merchant name</li>
+            <li>Purchase date</li>
+            <li>Total amount</li>
+            <li>Tax amount</li>
+            <li>Currency</li>
+            <li>Receipt items</li>
+            <li>Payment information</li>
+        </ul>
+
+        <p>
+            Users should review extracted information before saving it because
+            OCR results may occasionally be incomplete or inaccurate.
+        </p>
+    </section>
+
+    <section>
+        <h2>8. Camera and Photo Library</h2>
+
+        <p>
+            Finance Manager requests camera access only when the user chooses
+            to photograph a bill or receipt.
+        </p>
+
+        <p>
+            Photo-library access is requested only when the user chooses to
+            select an existing receipt or bill image.
+        </p>
+
+        <p>
+            The app does not browse or upload unrelated photos without the
+            user's action.
+        </p>
+    </section>
+
+    <section>
+        <h2>9. Face ID, Touch ID, and Device Authentication</h2>
+
+        <p>
+            Finance Manager may use Apple's LocalAuthentication framework to
+            protect access to the application.
+        </p>
+
+        <p>
+            Biometric and device-passcode verification is handled by iOS.
+            Finance Manager does not receive, collect, or store the user's
+            Face ID data, Touch ID data, or device passcode.
+        </p>
+    </section>
+
+    <section>
+        <h2>10. Data Sharing and Selling</h2>
+
+        <p>
+            Finance Manager does not sell users' personal or financial data.
+        </p>
+
+        <p>
+            Finance Manager does not use users' finance records for
+            third-party behavioural advertising.
+        </p>
+
+        <p>
+            Information may be processed by service providers such as Firebase
+            only as necessary to provide authentication, synchronization,
+            storage, security, and related app functionality.
+        </p>
+    </section>
+
+    <section>
+        <h2>11. Data Security</h2>
+
+        <p>
+            Reasonable technical safeguards are used to help protect user data.
+            These safeguards include account-based access control, Firebase
+            security rules, app-lock functionality, authenticated cloud access,
+            and local privacy protection.
+        </p>
+
+        <p>
+            No method of electronic storage or transmission can be guaranteed
+            to be completely secure.
+        </p>
+    </section>
+
+    <section>
+        <h2>12. Data Retention</h2>
+
+        <p>
+            User information is retained while the account remains active or
+            while it is needed to provide requested app functionality.
+        </p>
+
+        <p>
+            Users may delete individual records using available deletion
+            controls inside the app.
+        </p>
+    </section>
+
+    <section>
+        <h2>13. Account Deletion</h2>
+
+        <p>
+            Users can delete their account from the Settings section of
+            Finance Manager.
+        </p>
+
+        <p>Account deletion is intended to remove:</p>
+
+        <ul>
+            <li>The Firebase Authentication account</li>
+            <li>Associated Cloud Firestore finance records</li>
+            <li>Associated Firebase Storage receipt and bill images</li>
+            <li>Local SwiftData finance records</li>
+            <li>Account-specific preferences and caches</li>
+        </ul>
+
+        <p>
+            The user may be required to reauthenticate before account deletion
+            can be completed.
+        </p>
+    </section>
+
+    <section>
+        <h2>14. Sign Out</h2>
+
+        <p>
+            When a user signs out, Finance Manager clears local finance records,
+            account-specific preferences, authentication information, and
+            receipt-related caches from the device to help prevent another
+            account from viewing the previous user's information.
+        </p>
+    </section>
+
+    <section>
+        <h2>15. Children's Privacy</h2>
+
+        <p>
+            Finance Manager is not intended for children under 13 years of age.
+            The app does not knowingly collect personal information from
+            children under 13.
+        </p>
+    </section>
+
+    <section>
+        <h2>16. International Users</h2>
+
+        <p>
+            Finance Manager may be used by people in different countries.
+            Cloud information may be processed in locations where Firebase or
+            its service providers operate.
+        </p>
+    </section>
+
+    <section>
+        <h2>17. Changes to This Policy</h2>
+
+        <p>
+            This Privacy Policy may be updated when app functionality,
+            data-processing practices, or legal requirements change.
+        </p>
+
+        <p>
+            The updated policy will be published on this webpage with a revised
+            effective date.
+        </p>
+    </section>
+
+    <section>
+        <h2>18. Contact</h2>
+
+        <p>
+            For privacy questions, support requests, or data-deletion concerns,
+            contact:
+        </p>
+
+        <p>
+            <a href="mailto:shahulkn@icloud.com">
+                shahulkn@icloud.com
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Finance Manager. All rights reserved.
+    </footer>
+
+</main>
+</body>
+</html>
