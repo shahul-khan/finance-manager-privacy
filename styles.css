@@ -520,186 +520,104 @@ body{
   .iphone-hero{width:min(60vw,220px)}
   .mobile-phone-shell{width:70vw}
 }
-
+/* Final mobile product-story layout */
 @media (max-width: 760px) {
+
   .story {
-    padding: 48px 0 60px;
+    padding: 48px 0 64px !important;
   }
 
-  .story-step {
-    min-height: 0 !important;
-    height: auto !important;
-    padding: 0 0 48px !important;
-    margin: 0 !important;
-    justify-content: flex-start;
+  .story-layout {
+    display: block !important;
   }
 
-  .story-step:last-child {
-    padding-bottom: 0 !important;
-  }
-
-  .story-step > div:not(.mobile-screen-card) {
-    padding: 0 !important;
-  }
-
-  .story-step h2 {
-    margin: 8px 0 10px;
-  }
-
-  .story-step p {
-    margin: 0 0 14px;
-  }
-
-  .story-step ul {
-    margin: 14px 0 0;
-  }
-
-  .mobile-screen-card {
-    margin: 18px 0 28px !important;
-  }
-}
-@media (max-width: 760px) {
-  .story {
-    padding: 48px 0 60px !important;
-  }
-
-  .story-step {
-    min-height: 0 !important;
-    height: auto !important;
-    padding: 0 0 52px !important;
-    margin: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-  }
-
-  .story-step:last-child {
-    padding-bottom: 0 !important;
-  }
-
-  .story-step > div:not(.mobile-screen-card) {
-    order: 1;
-    padding: 0 !important;
-  }
-
-  .story-step .step-number {
-    order: 0;
-  }
-
-  .mobile-screen-card {
-    order: 2 !important;
-    margin: 18px 0 0 !important;
-
-    /* Keep the phone visible immediately */
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-    transition: none !important;
-  }
-
-  .mobile-phone-shell {
-    width: min(72vw, 276px) !important;
-  }
-
-  .story-step h2 {
-    margin: 8px 0 10px !important;
-  }
-
-  .story-step p {
-    margin: 0 0 12px !important;
-  }
-
-  .story-step ul {
-    margin: 12px 0 0 !important;
-  }
-}
-@media (max-width: 760px) {
-  .story {
-    padding: 48px 0 60px !important;
-  }
-
-  .story-step {
-    min-height: 0 !important;
-    height: auto !important;
-    padding: 0 0 52px !important;
-    margin: 0 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: flex-start !important;
-  }
-
-  .story-step > div:not(.mobile-screen-card) {
-    padding: 0 !important;
-  }
-
-  .story-step h2 {
-    margin: 8px 0 10px !important;
-  }
-
-  .story-step p {
-    margin: 0 0 12px !important;
-  }
-
-  .story-step ul {
-    margin: 12px 0 0 !important;
-  }
-
-  .mobile-screen-card {
-    display: flex !important;
-    align-items: flex-start !important;
-    justify-content: center !important;
-
-    width: 100% !important;
-    min-height: 0 !important;
-    height: auto !important;
-
-    padding: 0 !important;
-    margin: 18px 0 0 !important;
-
-    opacity: 1 !important;
-    visibility: visible !important;
-    transform: none !important;
-    transition: none !important;
-  }
-
-  .mobile-screen-card::before,
-  .mobile-screen-card::after {
+  .phone-column {
     display: none !important;
   }
 
-  .mobile-phone-shell {
+  .story-copy {
     position: relative !important;
-    top: auto !important;
-    bottom: auto !important;
+    z-index: 1 !important;
+  }
 
-    width: min(72vw, 276px) !important;
+  .story-step {
+    display: block !important;
+    min-height: 0 !important;
     height: auto !important;
 
-    margin: 0 auto !important;
+    padding: 0 0 54px !important;
+    margin: 0 !important;
+
+    background: none !important;
+    opacity: 1 !important;
     transform: none !important;
   }
 
-  .mobile-phone-shell img {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
+  .story-step:last-child {
+    padding-bottom: 0 !important;
   }
-}
 
-@media (max-width: 760px) {
+  /*
+   Removes the old 440px empty space.
+  */
+  .story-step > div {
+    padding-top: 0 !important;
+  }
 
-  /* Only the screenshot connected to story text 01, 02, 03... */
+  .story-step::before {
+    display: none !important;
+  }
+
+  .step-number {
+    display: block !important;
+    margin: 0 0 8px !important;
+
+    color: #52616d;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+  }
+
+  .step-kicker {
+    margin: 0 !important;
+    font-size: 11px !important;
+  }
+
+  .story-step h2 {
+    margin: 8px 0 10px !important;
+
+    font-size: clamp(32px, 9.5vw, 40px) !important;
+    line-height: 1.04 !important;
+  }
+
+  .story-step p {
+    margin: 0 0 12px !important;
+
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+  .story-step ul {
+    margin: 12px 0 0 !important;
+    gap: 8px !important;
+
+    font-size: 14px !important;
+  }
+
+  /*
+   Only the phones belonging to sections 01, 02, 03...
+   The hero phone remains unchanged.
+  */
   .story-step .mobile-screen-card {
-    display: flex !important;
-    align-items: flex-start !important;
-    justify-content: center !important;
+    display: block !important;
+    position: static !important;
 
     width: 100% !important;
     min-height: 0 !important;
     height: auto !important;
 
-    padding: 0 !important;
     margin: 18px 0 0 !important;
+    padding: 0 !important;
 
     opacity: 1 !important;
     visibility: visible !important;
@@ -713,12 +631,17 @@ body{
   }
 
   .story-step .mobile-phone-shell {
+    display: block !important;
     position: relative !important;
-    top: auto !important;
-    bottom: auto !important;
 
-    width: min(72vw, 276px) !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    width: min(68vw, 262px) !important;
     height: auto !important;
+    aspect-ratio: 1179 / 2556 !important;
 
     margin: 0 auto !important;
     transform: none !important;
@@ -726,7 +649,10 @@ body{
 
   .story-step .mobile-phone-shell img {
     display: block !important;
+
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
+
+    object-fit: cover !important;
   }
 }
