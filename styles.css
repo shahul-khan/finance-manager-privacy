@@ -685,3 +685,48 @@ body{
     height: auto !important;
   }
 }
+
+@media (max-width: 760px) {
+
+  /* Only the screenshot connected to story text 01, 02, 03... */
+  .story-step .mobile-screen-card {
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+
+    padding: 0 !important;
+    margin: 18px 0 0 !important;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .story-step .mobile-screen-card::before,
+  .story-step .mobile-screen-card::after {
+    display: none !important;
+  }
+
+  .story-step .mobile-phone-shell {
+    position: relative !important;
+    top: auto !important;
+    bottom: auto !important;
+
+    width: min(72vw, 276px) !important;
+    height: auto !important;
+
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+
+  .story-step .mobile-phone-shell img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+}
