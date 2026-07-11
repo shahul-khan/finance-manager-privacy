@@ -520,3 +520,41 @@ body{
   .iphone-hero{width:min(60vw,220px)}
   .mobile-phone-shell{width:70vw}
 }
+
+@media (max-width: 760px) {
+  .story {
+    padding: 48px 0 60px;
+  }
+
+  .story-step {
+    min-height: 0 !important;
+    height: auto !important;
+    padding: 0 0 48px !important;
+    margin: 0 !important;
+    justify-content: flex-start;
+  }
+
+  .story-step:last-child {
+    padding-bottom: 0 !important;
+  }
+
+  .story-step > div:not(.mobile-screen-card) {
+    padding: 0 !important;
+  }
+
+  .story-step h2 {
+    margin: 8px 0 10px;
+  }
+
+  .story-step p {
+    margin: 0 0 14px;
+  }
+
+  .story-step ul {
+    margin: 14px 0 0;
+  }
+
+  .mobile-screen-card {
+    margin: 18px 0 28px !important;
+  }
+}
