@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#28d6c0"/><stop offset="1" stop-color="#0a9185"/></linearGradient></defs>
+<circle cx="60" cy="60" r="50" fill="none" stroke="#183949" stroke-width="10" stroke-dasharray="180 45" transform="rotate(-35 60 60)"/>
+<circle cx="60" cy="60" r="50" fill="none" stroke="#20ccb8" stroke-width="10" stroke-dasharray="118 195" transform="rotate(130 60 60)"/>
+<path d="M60 24 89 36v24c0 21-12 37-29 46C43 97 31 81 31 60V36z" fill="url(#g)"/>
+<path d="M44 62h7V50h7v12h7V43h7v19h5" fill="none" stroke="#08283a" stroke-width="5" stroke-linecap="round"/>
+<path d="m43 48 11-8 10 4 13-13m-6 0h7v7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="85" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#fff">₹</text>
+</svg>

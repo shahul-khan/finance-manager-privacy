@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 130" role="img" aria-labelledby="title">
+<title id="title">Finance Manager</title>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21d2bd"/><stop offset="1" stop-color="#0b8d83"/></linearGradient></defs>
+<g transform="translate(4 5)">
+<circle cx="58" cy="58" r="50" fill="none" stroke="#0b2738" stroke-width="11" stroke-dasharray="185 45" transform="rotate(-35 58 58)"/>
+<circle cx="58" cy="58" r="50" fill="none" stroke="#19c6b4" stroke-width="11" stroke-dasharray="120 195" transform="rotate(130 58 58)"/>
+<path d="M58 22 87 34v24c0 21-12 37-29 46C41 95 29 79 29 58V34z" fill="url(#g)"/>
+<path d="M43 60h7V48h7v12h7V41h7v19h5" fill="none" stroke="#08283a" stroke-width="5" stroke-linecap="round"/>
+<path d="m42 46 11-8 10 4 13-13" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m70 29h7v7" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+<text x="58" y="82" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#fff">₹</text>
+</g>
+<text x="135" y="63" font-family="Arial,sans-serif" font-size="43" font-weight="800" letter-spacing="1" fill="#0b2738">FINANCE</text>
+<text x="138" y="92" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="8" fill="#0ca693">MANAGER</text>
+</svg>

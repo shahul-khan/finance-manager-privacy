@@ -1,446 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Privacy Policy | Finance Manager</title>
-
-    <meta
-        name="description"
-        content="Privacy Policy for the Finance Manager personal finance application."
-    >
-
-    <style>
-        :root {
-            color-scheme: light dark;
-            --background: #f5f5f7;
-            --card: #ffffff;
-            --text: #1d1d1f;
-            --secondary: #5f6368;
-            --accent: #f28c28;
-            --border: #e5e5e7;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --background: #0d0d0f;
-                --card: #1a1a1d;
-                --text: #f5f5f7;
-                --secondary: #b6b6ba;
-                --border: #303034;
-            }
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            padding: 24px;
-            background: var(--background);
-            color: var(--text);
-            font-family:
-                -apple-system,
-                BlinkMacSystemFont,
-                "Segoe UI",
-                Roboto,
-                Helvetica,
-                Arial,
-                sans-serif;
-            line-height: 1.65;
-        }
-
-        main {
-            max-width: 860px;
-            margin: 0 auto;
-        }
-
-        header {
-            padding: 42px 28px;
-            margin-bottom: 24px;
-            border-radius: 24px;
-            background: linear-gradient(
-                135deg,
-                rgba(242, 140, 40, 0.18),
-                rgba(242, 140, 40, 0.04)
-            );
-            border: 1px solid var(--border);
-        }
-
-        h1 {
-            margin: 0 0 10px;
-            font-size: clamp(2rem, 5vw, 3.4rem);
-            line-height: 1.1;
-        }
-
-        header p {
-            margin: 6px 0;
-            color: var(--secondary);
-        }
-
-        section {
-            margin-bottom: 18px;
-            padding: 28px;
-            border: 1px solid var(--border);
-            border-radius: 20px;
-            background: var(--card);
-        }
-
-        h2 {
-            margin-top: 0;
-            font-size: 1.35rem;
-        }
-
-        ul {
-            padding-left: 22px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        a {
-            color: var(--accent);
-        }
-
-        .notice {
-            padding: 16px 18px;
-            border-left: 4px solid var(--accent);
-            border-radius: 10px;
-            background: rgba(242, 140, 40, 0.09);
-        }
-
-        footer {
-            padding: 20px 8px 40px;
-            text-align: center;
-            color: var(--secondary);
-            font-size: 0.92rem;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Finance Manager is a private iPhone app for budgets, bills, debt, reports, recurring expenses and family finances." />
+  <meta name="theme-color" content="#02070b" />
+  <meta property="og:title" content="Finance Manager — Your complete financial picture" />
+  <meta property="og:description" content="See Finance Manager in action through its real iPhone interface." />
+  <meta property="og:type" content="website" />
+  <title>Finance Manager — Your complete financial picture</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-<main>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Finance Manager home">
+        <img src="assets/logo.svg" alt="" width="42" height="42" />
+        <span><strong>Finance</strong><small>Manager</small></span>
+      </a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#experience">Experience</a>
+        <a href="#features">Features</a>
+        <a href="#security">Security</a>
+        <a href="privacy.html">Privacy</a>
+        <a class="nav-cta" href="#download">Coming to iPhone</a>
+      </nav>
+    </div>
+  </header>
 
-    <header>
-        <h1>Privacy Policy</h1>
-        <p><strong>Finance Manager</strong></p>
-        <p>Effective date: 10 July 2026</p>
-    </header>
-
-    <section>
-        <h2>1. Introduction</h2>
-
+  <main>
+    <section class="hero">
+      <div class="hero-grid-pattern"></div>
+      <div class="container hero-content">
+        <div class="eyebrow center"><span></span> Finance Manager for iPhone</div>
+        <h1>Every part of your money.<br /><em>One clear view.</em></h1>
         <p>
-            Finance Manager is a personal finance management application
-            designed to help users record and manage their income, expenses,
-            bills, budgets, debts, savings, recurring items, calendar entries,
-            and receipt information.
+          Plan your month, capture bills, follow debts, understand reports and coordinate family finances through one focused experience.
         </p>
-
-        <p>
-            This Privacy Policy explains what information the application
-            processes, why it is processed, how it is protected, and what
-            choices users have regarding their information.
-        </p>
-    </section>
-
-    <section>
-        <h2>2. Information We Process</h2>
-
-        <p>
-            Depending on the features used, Finance Manager may process:
-        </p>
-
-        <ul>
-            <li>Email address used to create and authenticate an account.</li>
-            <li>Income, expense, bill, budget, savings, and debt records.</li>
-            <li>Friend due and family-sharing information entered by the user.</li>
-            <li>Merchant names, transaction dates, amounts, currencies, categories, payment methods, notes, and tax values.</li>
-            <li>Bill or receipt images voluntarily captured or selected by the user.</li>
-            <li>Receipt information extracted using optical character recognition.</li>
-            <li>App preferences such as default currency, app-lock status, and auto-lock timeout.</li>
-            <li>Cloud-sync state and technical information necessary to operate the application.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>3. How Information Is Used</h2>
-
-        <p>User information is used to provide app functionality, including:</p>
-
-        <ul>
-            <li>Creating and authenticating the user's account.</li>
-            <li>Saving and synchronizing personal finance records.</li>
-            <li>Calculating dashboards, reports, budgets, bills, debts, and savings.</li>
-            <li>Extracting receipt details from images selected by the user.</li>
-            <li>Displaying receipt images and associated transaction details.</li>
-            <li>Protecting the app with Face ID, Touch ID, or device authentication.</li>
-            <li>Maintaining app reliability, security, and user preferences.</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>4. Account and User Data Isolation</h2>
-
-        <p>
-            The user's email address is used for authentication.
-            Personal finance data is associated with the user's Firebase
-            Authentication user identifier.
-        </p>
-
-        <p>
-            User-specific cloud data is stored under an account-specific path
-            and is intended to be accessible only to that authenticated user.
-        </p>
-
-        <div class="notice">
-            Finance Manager does not send a user's income, expenses, bills,
-            or other finance records to the user's email inbox.
+        <div class="hero-actions">
+          <a class="button primary" href="#experience">Explore the app</a>
+          <a class="button ghost" href="privacy.html">Privacy Policy</a>
         </div>
+      </div>
+      <div class="container hero-phone-wrap">
+        <div class="hero-halo"></div>
+        <div class="iphone iphone-hero">
+          <div class="iphone-side left-one"></div><div class="iphone-side left-two"></div><div class="iphone-side right-one"></div>
+          <div class="iphone-screen"><img src="assets/screens/dashboard.png" alt="Finance Manager dashboard screen" /></div>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>5. Local Device Storage</h2>
+    <section class="story" id="experience">
+      <div class="container story-layout">
+        <div class="phone-column">
+          <div class="phone-sticky">
+            <div class="phone-glow"></div>
+            <div class="iphone story-phone">
+              <div class="iphone-side left-one"></div><div class="iphone-side left-two"></div><div class="iphone-side right-one"></div>
+              <div class="iphone-screen screen-stack" aria-live="polite">
+                <img class="app-screen active" data-screen="dashboard" src="assets/screens/dashboard.png" alt="Finance Manager personal dashboard" />
+                <img class="app-screen" data-screen="calendar-summary" src="assets/screens/calendar-summary.png" alt="Finance Manager calendar summary" />
+                <img class="app-screen" data-screen="calendar" src="assets/screens/calendar.png" alt="Finance Manager financial calendar" />
+                <img class="app-screen" data-screen="bills" src="assets/screens/bills.png" alt="Finance Manager bills and transactions" />
+                <img class="app-screen" data-screen="budget" src="assets/screens/budget.png" alt="Finance Manager monthly budget" />
+                <img class="app-screen" data-screen="reports" src="assets/screens/reports.png" alt="Finance Manager reports" />
+                <img class="app-screen" data-screen="more" src="assets/screens/more.png" alt="Finance Manager tools and accounts" />
+              </div>
+            </div>
+            <div class="screen-caption"><span id="screen-number">01</span><strong id="screen-name">Dashboard</strong></div>
+          </div>
+        </div>
 
-        <p>
-            Finance Manager uses Apple storage technologies, including
-            SwiftData, to store finance records and related information locally
-            on the user's device.
-        </p>
+        <div class="story-copy">
+          <article class="story-step active" data-screen="dashboard" data-label="Dashboard" data-number="01">
+            <span class="step-number">01</span>
+            <div>
+              <div class="step-kicker">Personal overview</div>
+              <h2>Know what remains after the essentials.</h2>
+              <p>The dashboard combines your monthly position into a safe balance and keeps income, expenses, savings and debt visible without clutter.</p>
+              <ul><li>Safe balance after required outflow</li><li>Personal and calendar modes</li><li>At-a-glance financial categories</li></ul>
+            </div>
+          </article>
 
-        <p>
-            Temporary files may also be stored locally, including downloaded
-            receipt images, OCR images, generated reports, and cache files.
-            These temporary files may be removed using the Clear Cache feature.
-        </p>
+          <article class="story-step" data-screen="calendar-summary" data-label="Calendar Summary" data-number="02">
+            <span class="step-number">02</span>
+            <div>
+              <div class="step-kicker">Monthly context</div>
+              <h2>See the financial shape of the month.</h2>
+              <p>The calendar summary brings income, expenses, savings, bills and debt into one monthly snapshot before you examine individual dates.</p>
+              <ul><li>Month-by-month navigation</li><li>Category totals together</li><li>Fast filtering by financial type</li></ul>
+            </div>
+          </article>
+
+          <article class="story-step" data-screen="calendar" data-label="Calendar" data-number="03">
+            <span class="step-number">03</span>
+            <div>
+              <div class="step-kicker">Financial calendar</div>
+              <h2>Understand exactly when money moves.</h2>
+              <p>Select a date, review its entries and add new events directly from the calendar. Heavy and light periods become easier to recognize.</p>
+              <ul><li>Date-level entries</li><li>Income, bills, debt and savings filters</li><li>Quick add for new financial events</li></ul>
+            </div>
+          </article>
+
+          <article class="story-step" data-screen="bills" data-label="Bills" data-number="04">
+            <span class="step-number">04</span>
+            <div>
+              <div class="step-kicker">Bills and transactions</div>
+              <h2>Capture a receipt in the way that suits you.</h2>
+              <p>Photograph a bill, choose an existing image or add the record manually. Search and filters keep saved transactions easy to find.</p>
+              <ul><li>Camera receipt capture</li><li>Photo-library import</li><li>Manual entry and transaction search</li></ul>
+            </div>
+          </article>
+
+          <article class="story-step" data-screen="budget" data-label="Budget" data-number="05">
+            <span class="step-number">05</span>
+            <div>
+              <div class="step-kicker">Monthly budget</div>
+              <h2>Build the month once. Reuse what repeats.</h2>
+              <p>Define recurring income and expenses, then use those active items automatically when creating monthly plans.</p>
+              <ul><li>Recurring income and expense profiles</li><li>Monthly spent and income totals</li><li>Reusable plans for consistent budgeting</li></ul>
+            </div>
+          </article>
+
+          <article class="story-step" data-screen="reports" data-label="Reports" data-number="06">
+            <span class="step-number">06</span>
+            <div>
+              <div class="step-kicker">Reports and insights</div>
+              <h2>Turn records into something useful.</h2>
+              <p>Review spending across multiple periods, compare income with expenses and receive clearer insights as your financial history grows.</p>
+              <ul><li>Multiple reporting periods</li><li>Category spending analysis</li><li>Income-versus-expense trends</li></ul>
+            </div>
+          </article>
+
+          <article class="story-step" data-screen="more" data-label="More" data-number="07">
+            <span class="step-number">07</span>
+            <div>
+              <div class="step-kicker">More capability</div>
+              <h2>Go beyond day-to-day budgeting.</h2>
+              <p>Family sharing, debt tracking, friend dues, reports, currency conversion and future tools live together without overwhelming the main experience.</p>
+              <ul><li>Family sharing</li><li>Debt Tracker and Friend Dues</li><li>Currency tools, settings and support</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>6. Firebase Services</h2>
-
-        <p>Finance Manager uses Firebase services provided by Google:</p>
-
-        <ul>
-            <li>
-                <strong>Firebase Authentication</strong> for account sign-in
-                and authentication.
-            </li>
-
-            <li>
-                <strong>Cloud Firestore</strong> for saving and synchronizing
-                user finance records and settings.
-            </li>
-
-            <li>
-                <strong>Firebase Storage</strong> for storing receipt or bill
-                images uploaded by the user.
-            </li>
-        </ul>
-
-        <p>
-            Cloud records and stored files are organized using the
-            authenticated user's account identifier.
-        </p>
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow"><span></span> Built around real life</div>
+          <h2>A financial operating system for individuals and families.</h2>
+        </div>
+        <div class="feature-grid">
+          <article><b>01</b><h3>Plan</h3><p>Create monthly plans from actual recurring commitments rather than starting from zero each time.</p></article>
+          <article><b>02</b><h3>Record</h3><p>Add bills through camera capture, photos or manual entry and keep transactions searchable.</p></article>
+          <article><b>03</b><h3>Understand</h3><p>Use dashboards, calendars and reports to see what happened and what comes next.</p></article>
+          <article><b>04</b><h3>Coordinate</h3><p>Bring personal finances, family sharing and dues into one controlled environment.</p></article>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>7. Receipt Scanning and OCR</h2>
-
-        <p>
-            When a user captures or selects a receipt image, Finance Manager
-            may analyze the image to identify information such as:
-        </p>
-
-        <ul>
-            <li>Merchant name</li>
-            <li>Purchase date</li>
-            <li>Total amount</li>
-            <li>Tax amount</li>
-            <li>Currency</li>
-            <li>Receipt items</li>
-            <li>Payment information</li>
-        </ul>
-
-        <p>
-            Users should review extracted information before saving it because
-            OCR results may occasionally be incomplete or inaccurate.
-        </p>
+    <section class="security" id="security">
+      <div class="container security-layout">
+        <div>
+          <div class="eyebrow"><span></span> Privacy by design</div>
+          <h2>Your financial life deserves careful protection.</h2>
+          <p>Finance Manager is being built around authenticated access, app-lock protection and controlled cloud synchronization.</p>
+          <div class="security-list">
+            <div><b>Authenticated access</b><span>Records remain associated with the signed-in account.</span></div>
+            <div><b>App Lock ready</b><span>Sensitive financial screens stay protected until explicitly unlocked.</span></div>
+            <div><b>Structured cloud sync</b><span>Designed for reliable restoration without duplicate records.</span></div>
+          </div>
+          <a class="text-link" href="privacy.html">Read the Privacy Policy →</a>
+        </div>
+        <div class="security-visual">
+          <div class="orb"></div>
+          <div class="security-card"><img src="assets/logo-mark.svg" alt="" /><strong>Private. Clear. Complete.</strong><span>Finance Manager</span></div>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>8. Camera and Photo Library</h2>
-
-        <p>
-            Finance Manager requests camera access only when the user chooses
-            to photograph a bill or receipt.
-        </p>
-
-        <p>
-            Photo-library access is requested only when the user chooses to
-            select an existing receipt or bill image.
-        </p>
-
-        <p>
-            The app does not browse or upload unrelated photos without the
-            user's action.
-        </p>
+    <section class="download" id="download">
+      <div class="container download-card">
+        <img src="assets/logo.svg" alt="Finance Manager" />
+        <div><span>COMING TO IPHONE</span><h2>A clearer relationship with your money.</h2><p>Finance Manager is currently in active development.</p></div>
+        <a class="button white" href="mailto:contact@example.com">Contact</a>
+      </div>
     </section>
+  </main>
 
-    <section>
-        <h2>9. Face ID, Touch ID, and Device Authentication</h2>
-
-        <p>
-            Finance Manager may use Apple's LocalAuthentication framework to
-            protect access to the application.
-        </p>
-
-        <p>
-            Biometric and device-passcode verification is handled by iOS.
-            Finance Manager does not receive, collect, or store the user's
-            Face ID data, Touch ID data, or device passcode.
-        </p>
-    </section>
-
-    <section>
-        <h2>10. Data Sharing and Selling</h2>
-
-        <p>
-            Finance Manager does not sell users' personal or financial data.
-        </p>
-
-        <p>
-            Finance Manager does not use users' finance records for
-            third-party behavioural advertising.
-        </p>
-
-        <p>
-            Information may be processed by service providers such as Firebase
-            only as necessary to provide authentication, synchronization,
-            storage, security, and related app functionality.
-        </p>
-    </section>
-
-    <section>
-        <h2>11. Data Security</h2>
-
-        <p>
-            Reasonable technical safeguards are used to help protect user data.
-            These safeguards include account-based access control, Firebase
-            security rules, app-lock functionality, authenticated cloud access,
-            and local privacy protection.
-        </p>
-
-        <p>
-            No method of electronic storage or transmission can be guaranteed
-            to be completely secure.
-        </p>
-    </section>
-
-    <section>
-        <h2>12. Data Retention</h2>
-
-        <p>
-            User information is retained while the account remains active or
-            while it is needed to provide requested app functionality.
-        </p>
-
-        <p>
-            Users may delete individual records using available deletion
-            controls inside the app.
-        </p>
-    </section>
-
-    <section>
-        <h2>13. Account Deletion</h2>
-
-        <p>
-            Users can delete their account from the Settings section of
-            Finance Manager.
-        </p>
-
-        <p>Account deletion is intended to remove:</p>
-
-        <ul>
-            <li>The Firebase Authentication account</li>
-            <li>Associated Cloud Firestore finance records</li>
-            <li>Associated Firebase Storage receipt and bill images</li>
-            <li>Local SwiftData finance records</li>
-            <li>Account-specific preferences and caches</li>
-        </ul>
-
-        <p>
-            The user may be required to reauthenticate before account deletion
-            can be completed.
-        </p>
-    </section>
-
-    <section>
-        <h2>14. Sign Out</h2>
-
-        <p>
-            When a user signs out, Finance Manager clears local finance records,
-            account-specific preferences, authentication information, and
-            receipt-related caches from the device to help prevent another
-            account from viewing the previous user's information.
-        </p>
-    </section>
-
-    <section>
-        <h2>15. Children's Privacy</h2>
-
-        <p>
-            Finance Manager is not intended for children under 13 years of age.
-            The app does not knowingly collect personal information from
-            children under 13.
-        </p>
-    </section>
-
-    <section>
-        <h2>16. International Users</h2>
-
-        <p>
-            Finance Manager may be used by people in different countries.
-            Cloud information may be processed in locations where Firebase or
-            its service providers operate.
-        </p>
-    </section>
-
-    <section>
-        <h2>17. Changes to This Policy</h2>
-
-        <p>
-            This Privacy Policy may be updated when app functionality,
-            data-processing practices, or legal requirements change.
-        </p>
-
-        <p>
-            The updated policy will be published on this webpage with a revised
-            effective date.
-        </p>
-    </section>
-
-    <section>
-        <h2>18. Contact</h2>
-
-        <p>
-            For privacy questions, support requests, or data-deletion concerns,
-            contact:
-        </p>
-
-        <p>
-            <a href="mailto:shahulkn@icloud.com">
-                shahulkn@icloud.com
-            </a>
-        </p>
-    </section>
-
-    <footer>
-        © 2026 Finance Manager. All rights reserved.
-    </footer>
-
-</main>
+  <footer>
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#top"><img src="assets/logo.svg" alt="" /><span><strong>Finance</strong><small>Manager</small></span></a>
+      <p>Personal and family finance, made clearer.</p>
+      <div class="footer-links"><a href="#experience">Experience</a><a href="#security">Security</a><a href="privacy.html">Privacy</a></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> Finance Manager.</span><span>Designed for iPhone</span></div>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
